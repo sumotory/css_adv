@@ -1,0 +1,44 @@
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    container: right;
+    
+}
+nav ul li{
+    margin-left: 2em;
+
+}
+nav ul li a {
+    color: #ababab;
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+.container img{
+    
+    grid-area: mid-left;
+    
+}
+header{
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "left  mid   right";
+    grid-template-columns: 19% 60% 21%;
+    justify-items: left;
+}
+.main-header{
+    align-self: center;
+}
