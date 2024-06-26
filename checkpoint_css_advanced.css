@@ -1,10 +1,11 @@
 
-
+nav{
+    container: mid; 
+}
 nav ul{
     list-style: none;
     display: flex;
     padding: 0;
-    container: right;
     
 }
 nav ul li{
@@ -21,24 +22,218 @@ nav ul li a {
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: sticky;
-    
+    gap: 500px;
 }
-.container img{
-    
-    grid-area: mid-left;
-    
-}
+
 header{
     width: 100%;
-    display: grid;
-    grid-template-areas:
-    "left  mid   right";
-    grid-template-columns: 19% 60% 21%;
-    justify-items: left;
+    display: flex;
 }
 .main-header{
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50PX;
+    align-items: center;
+}
+.main-header h2{
+    font-size: 32.9px;
+    color: #00b39b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+.main-header .txt{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    color: #747474;
+    font-family: Arial, Helvetica NEUE, sans-serif;
+    
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    margin-top:  50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.container1 .a{
+    background-color: #00CCB1;
+    width: 200px;
+    height:300px;
+    margin: 10px;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    border-radius: 30px;
+
+}
+
+.container1 .b{
+    background-color: #3D83DF;
+    width: 200px;
+    height:300px;
+    margin: 10px;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    border-radius: 30px;
+
+}
+
+.container1 .c{
+    background-color: #1B2734;
+    width: 200px;
+    height:300px;
+    margin: 10px;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: left;
+    border-radius: 30px;
+}
+
+
+
+
+.box2{
+    width: 200px;
+    height:225px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.box2 h2{
+    color: #00b39b;
+}
+.container2{
+    background-color: #d0faf4;
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    margin-left: 150px;
+}
+.container2 .container2left img{
+    margin-top:265px;}
+.container2left h2{
+    font-size: 30px;
+    color: #00b39b;
+    padding-right: 50px;
+}
+.container2left p{
+    color: #727272;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.container2right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container2right .group1{
+    margin-top: 60px;
+}
+.container2right{
+    margin-right: -200px;
+}
+
+.container3{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    margin-left: 400px;
+}
+.container3 .text{
+    color: #00b39b;
+    height: 200px;
+    width: 179px;
+    font-size: 22.75px;
+    font-weight: normal;
+}
+.container3 .photos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap:50px;
+    width: 298px;
+    height: 200px;
+    
+}
+.container3 .photos .p{
+    height: 12.5px;
+    width: 75px;
+}
+
+
+.grid{
+    margin: 200px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    gap: 20PX;
+}
+.grid p{
+    color: #747474;
+    size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.container4 {
+    justify-content: center;
+    margin-bottom: 50px;
+    text-align: center;
+ 
+}
+.container4 h2{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 300;
+    font-family:Work Sans, Arial, sans-serif;
+}
+button{
+    color: white;
+    background-color:#3D83DF ;
+    height: 42px;
+    width: 211px;
+    border-radius: 5    px;
+    border: #d0faf4;
+    
+}
+
+.container5{
+    color:#ababab;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-left:30% ;
+    padding-right: 30%;
+
+
+}
+.both{
+    display: flex;
+    flex-direction: row;
+    gap:75px;
+    align-items: center;
+}
+.both button{
+    color: white;
+    background-color:#3D83DF ;
+    height: 25px;
+    width: 100px;
+    border-radius: 5    px;
+    border: #d0faf4;
+    font-size: 10px;
+    
 }
